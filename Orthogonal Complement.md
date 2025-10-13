@@ -1,2 +1,2 @@
-Orthogonal Subspaces:
+Orthogonal Sub-spaces:
 1. 
