@@ -103,12 +103,14 @@
 //     [$&$]
 //   })))
 
-#let matright(..aa) = math.mat(..aa
-  .pos()
-  .map(row => row.map(y => {
-    y
-    v(8mm)
-  })))
+#let matright(..aa) = math.mat(
+  ..aa
+    .pos()
+    .map(row => row.map(y => {
+      y
+      v(8mm)
+    })),
+)
 
 // ============================================================
 // Your notes start here
